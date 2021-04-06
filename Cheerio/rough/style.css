@@ -1,0 +1,15 @@
+/* .bluish{
+    color:blue;
+}
+.reddish{
+    color:red;
+} */
+/* p{
+    color:blue;
+} */
+div p span{
+    color:red;
+}
+div span p span{
+    color:black;
+}

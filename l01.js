@@ -48,7 +48,7 @@
 // console.log(sum);
 // console.log(element);
 // console.log(arr1);
-// let arr=[1,2,3,4,5,6,7];
+let arr=[1,2,3,4,5,6,7];
 // for(let i=0;i<arr.length;i++)
 //    arr[i]+=2;
 // function addTwo(data,index){
@@ -56,8 +56,8 @@
 // }
 // arr=arr.map(addTwo);
 // console.log(arr);
-// function oddEven(data,index){
-//     return data&1;
-// }
-// arr=arr.filter(oddEven);
-// console.log(arr);
+function oddEven(data,index){
+    return data&1;
+}
+arr=arr.filter(oddEven);
+console.log(arr);
